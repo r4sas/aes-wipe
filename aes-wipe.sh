@@ -31,8 +31,8 @@ if  [ "$eingabe" == "y" ]
 		
 		
 		echo 'Finished at: '
-		echo date
-		
+		date
+	
 else
 	echo 'Process aborted.'
 fi
