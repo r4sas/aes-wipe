@@ -9,8 +9,8 @@ echo 'This script will wipe the entire HDD you selected.'
 echo 'USE AT YOUR OWN RISK!'
 echo ''
 echo 'Do you want to proceed? (y/n):'
-read eingabe
-if  [ "$eingabe" == "y" ]
+read input
+if  [ "$input" == "y" ]
 	then
 		echo 'Wiping in progress...'
 		
